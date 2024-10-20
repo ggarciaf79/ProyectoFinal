@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="proyectofinal.controlador.IngresoController">
+   <children>
+      <Pane layoutX="3.0" prefHeight="400.0" prefWidth="600.0">
+         <children>
+            <Label fx:id="labelbienvenida" layoutX="174.0" layoutY="163.0" prefHeight="17.0" prefWidth="154.0" text="Label" />
+            <Button fx:id="btnregresar" layoutX="167.0" layoutY="211.0" mnemonicParsing="false" onAction="#Salir" text="Regresar" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
